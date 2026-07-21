@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #111827, #1d4ed8, #7c3aed);
+  color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.container {
+  width: min(90%, 720px);
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 24px;
+  padding: 24px 30px;
+  text-align: center;
+}
+
+.container p {
+  font-size: 1.08rem;
+  line-height: 1.8;
+}
+
+.picture {
+  margin: 26px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.picture img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #ffffff;
+}
+
+.picture img:hover {
+  transform: scale(1.2);
+}
+
+.books {
+  width: min(90%, 720px);
+  background: #ffffff;
+  color: #111827;
+  border-radius: 24px;
+  padding: 24px 28px;
+}
+
+.books h2 {
+  margin-bottom: 12px;
+  color: #2563eb;
+  font-size: 1.4rem;
+}
+
+.books ol {
+  padding-left: 20px;
+}
+
+.books li {
+  margin: 10px 0;
+  font-size: 1rem;
+  color: #374151;
+}
+.website {
+  width: min(90%, 720px);
+  background: #ffffff;
+  color: #111827;
+  border-radius: 24px;
+  padding: 24px 28px;
+  margin-top: 20px;
+}
+.footer{
+  color: #111827;
+  padding: 25px;
+  margin-top: 40px;
+}
+
