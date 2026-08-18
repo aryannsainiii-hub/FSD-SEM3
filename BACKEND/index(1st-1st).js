@@ -39,3 +39,5 @@ console.log("mavii");
 //npm i -g nodemon 
 //npm instgall -- save-dev nodemon
 
+const shyam = require("./XYZ");
+console.log("hello",shyam)
