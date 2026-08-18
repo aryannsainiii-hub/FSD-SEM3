@@ -32,3 +32,10 @@ eventEmitter.emit('lunch')
 
 
 
+console.log("mavii")
+console.log("mavii");
+
+// npm install express --save
+//npm i -g nodemon 
+//npm instgall -- save-dev nodemon
+

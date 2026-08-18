@@ -16,7 +16,7 @@ function Login() {
 					<span className="nova-mark">N</span>
 					<span className="brand-name">nova</span>
 				</div>
-				<div className="visual-copy">
+				<div className="visual-copy"> 
 					<p className="eyebrow">A calmer way to work</p>
 					<h1>Make space for your best thinking.</h1>
 					<p className="visual-description">Bring your projects, notes, and people into one beautifully simple workspace.</p>
